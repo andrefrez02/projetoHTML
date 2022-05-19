@@ -1,0 +1,89 @@
+html, body{
+    margin: 0 !important;
+    font-family: 'Segoe UI';
+}
+div#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 150px;
+    background: linear-gradient(0deg, rgba(4,0,84,1) 1%, rgba(42,37,150,1) 50%, rgb(52, 58, 212) 99%);
+    box-shadow: 0px -10px 20px 20px rgb(42 42 42 / 65%);
+}
+.nav-items.barra {
+    display: flex;
+    align-items: center;
+}
+.nav-items.barra h1, .nav-items.barra.footer h2{
+    margin: 0px 50px 6.3px 100px;
+    color: white;
+    text-shadow: 0px 2px 10px dimgrey;
+    cursor: pointer;
+}
+div#nav-items_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div#nav.footer {
+    background: linear-gradient(180deg, rgba(4,0,84,1) 1%, rgba(42,37,150,1) 50%, rgb(52, 58, 212) 99%);
+    box-shadow: 0px 10px 20px 20px rgb(42 42 42 / 65%);
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+    overflow: hidden;
+}
+.nav-items.barra.footer img.logo{
+    width: 100%;
+    height: 100px;
+    transform: translate(35px, -2px);
+}
+.nav-items.barra.footer h2{
+    margin: 0px 0px 6.3px 0px;
+    font-size: medium;
+}
+div#nav-items_links.footer {
+    display: flex;
+}
+img.sociais {
+    width: 40px;
+    margin: 0 20px;
+    filter: drop-shadow(0 0px 0px rgba(255,255,255, 0.1)) contrast(1) saturate(2);
+}
+img.sociais:hover {
+    filter: drop-shadow(0 0px 0px rgba(255,255,255, 0.5)) contrast(1) saturate(2.5);
+}
+input[type="text" i] {
+    margin: 0 100px 5px 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 9px 80px;
+    text-align: left;
+    font-size: 16px;
+    border-color: #000042;
+    box-shadow: 0px 5px 12px 0px rgb(42 42 42 / 65%);
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 90vh;
+    background-color: grey;
+    display: flex;
+}
+.outer{
+    width: 15%;
+    background-color: green;
+}
+.center{
+    width: 70%;
+    display: flex;
+    background-color: blue;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+}
